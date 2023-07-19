@@ -6,6 +6,10 @@ import { Component } from '@angular/core';
 })
 export class NavBarComponent {
 
+  selectedPage:number = 0;
   constructor() { }
 
+  onClick(selected:number) {
+    this.selectedPage = selected;
+  } 
 }
