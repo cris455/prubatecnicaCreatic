@@ -1,0 +1,70 @@
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-input {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #000;
+    border: none;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .login-input::placeholder {
+    color: #000;
+    opacity: 0.6;
+  }
+
+  .display_column {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-image: url("../../../assets/images/fondo.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.column_container {
+    flex-grow: 1;
+    padding: 7em;
+    background-color: rgb(255, 255, 255,0.35);
+}
+.column_container > div  {
+    background-color: rgb(255, 255, 255, 0.4);
+    border-radius: 1em;
+}
+.column_container > div > img {
+    max-width: 100%;
+}
+.row_container {
+    background-color: rgb(255, 255, 255, 0.7);
+    border-radius: 1em;
+    flex-wrap: wrap;
+    max-width: 520px;
+    margin-bottom: 2em;
+}
+.row_container > #principal {
+    min-width: 360px;
+    flex-grow: 2;
+    padding: 2em;
+}
+.row_container > #principal > img {
+    min-width: 80%;
+}
+.row_container > #second {
+    min-width: 50%;
+}
+.row_container > #third {
+    min-width: 30%;
+}
+.row_container > .text {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    margin: 0.5em;
+    color: white;
+}
+.row_container > .icons {
+    
+}
